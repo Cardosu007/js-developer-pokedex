@@ -1,12 +1,10 @@
-
-class Pokemon {
+class Pokemon{
     number;
     name;
     type;
     types = [];
-    photo;
+    photo;   
 }
-
 
 class BaseStats extends Pokemon{
     hp;
